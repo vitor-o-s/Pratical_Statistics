@@ -87,6 +87,46 @@ Existem outras formas de estruturas de dados (como por exemplo a estrutura de gr
 
 ## 3 - Experimentos Estatísticos e Teste de Significância  
 
+### Teste A/B 
+
+### Teste de Hipótese
+
+Teste de hipóteses ou testes de significância tem o objetivo de ajudar a descobrir se uma chance aleatória poderia ser responsável por um efeito observado. É importante que se tenha uma hipótese para que não subestimemos o comportamento aleatório natural e para não interpretarmos eventos aleatórios como se tivessem padrões de alguma significância.
+
+Durante um teste A/B bem projetado são coletados dados sobre cada tratamento, e qualquer diferença entre os grupos A e B devem ser devido a uma diferença real entre os tratamentos A e B, ou a possibilidade aleatória de atribuição de indivíduos. O teste de hipótese é um meio de avaliar se a aleatóriedade é uma explicação (ou não) para a diferença entre os grupos A e B.
+
+#### Hipótese Nula
+
+Partindo da ideia de que reagimos a comportamentos incomuns tentando interpretá-los como significativos e reais, buscaremos provas de que a diferença entre os grupos é maior do que a possibilidade poderia produzir aleatoriamente. Logos dizemos que os tratamentos são iguais e qualquer diferença entre os grupos é devido a aleatoriedade. Podemos chamar essa afirmação de hipótese nula. Esperamos poder provar que a hipótese nula está errada e portanto os resultados para os grupos A e B são mais diferentes do que o acaso podria produzir. 
+
+Um modo de fazer isso é atráves de um procedimento de reamostragem e permutação, no qual embaralhamos os resultados dos grupos A e B e distribuímos repetidamente os dados em grupos de tamanhos semelhantes, então observamos com que frequência obtemos uma diferença tão extrema quanto a diferença observada. 
+
+#### Hipótese Alternativa 
+
+Os testes de hipótese envolvem, por natureza, não apenas, uma hipótese nula, mas também uma hipótese alternativa contrária. Veja:
+
+* Nula = "nenhuma diferença entre as médias do grupo A e B". alternativa = "A é diferente de B"
+
+Em conjunto, as hipóteses nulas e alternativa devem representar todas as possibilidades. A natureza da hipótese nula determina a estrutura do teste de hipótese.
+
+#### Teste de Hipótese Unilateral e Bilateral
+
+Se em um teste A/B buscamos testar algo como padrão (A)/ nova opção (B) é preciso que haja uma hipótese direcional (B é melhor que A, caso contrário você permanece com A), logo usaremos um teste de hipótese unilateral (unicaudal). Isto significa que a possibilidade extrema resulta apenas umas contagem de direção no sentido do valor p.
+
+Caso queira se proteger do acaso em qualquer direção deverá aplicar um teste bidirecional (bicaudal). Ou seja, possibilidades extremas resultam em contagens em qualquer uma das direções no sentido do valor p.
+
+### Reamostragem 
+
+### Significância Estatística e Valores P
+
+### Teste t 
+
+### Testagem Múltipla
+
+### Graus de Liberdade 
+
+
+
 ## 4 - Regressão e Previsão 
 
 ## 5 - Classificação
